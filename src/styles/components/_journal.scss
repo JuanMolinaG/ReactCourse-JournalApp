@@ -40,7 +40,7 @@
 .journal__entries {
   flex: 1 1 auto;
   margin-top: 30px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .journal__entry {
@@ -72,6 +72,8 @@
 
 .journal__entry-date-box {
   align-items: center;
+  background-color: $primary;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
