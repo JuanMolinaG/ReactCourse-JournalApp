@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import validator from 'validator';
 import { startRegisterNameEmailPassword } from '../../actions/auth';
 import { removeError, setError } from '../../actions/ui';
-import { useForm } from '../../hooks/userForm';
+import { useForm } from '../../hooks/useForm';
 
 export const RegisterScreen = () => {
   const dispatch = useDispatch();
